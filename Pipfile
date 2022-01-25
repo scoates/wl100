@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hidapi = "*"
+
+[dev-packages]
+mypy = "*"
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+wl100 = "python wl100.py"
